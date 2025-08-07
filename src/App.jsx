@@ -20,7 +20,7 @@ const profiles = [
     image: "image.jpg"
   },
   {
-    name: "Riya Patel",
+    // name: "Riya Patel",
     title: "UI/UX Designer | Frontend Enthusiast",
     summary: "Riya loves crafting beautiful user experiences and exploring the world of design systems.",
     image: "image.jpg"
