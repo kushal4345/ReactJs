@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { Profile } from '../Components/profile'
+import { Usestate } from '../Components/usestate'
+import { Toggle } from '../Components/showToggle'
 
 
 // Step 1: Data Array
@@ -31,7 +33,7 @@ const profiles = [
 function App() {
   return (
     <div className="all">
-      {profiles.map((profile, index) => (
+      {/* {profiles.map((profile, index) => (
         <Profile
           key={index} // Always add a unique key when using .map
           name={profile.name}
@@ -40,6 +42,8 @@ function App() {
           image={profile.image}
         />
       ))}
+      <Usestate /> */}
+      <Toggle />
     </div>
   );
 }
